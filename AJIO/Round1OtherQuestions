@@ -1,0 +1,12 @@
+@Bean
+public Application youCanDoIt() {
+  Application app = new Application();
+  return app;
+}
+
+public void test() {
+ Application app1 = youCanDoIt();
+ Application app2 = youCanDoIt();
+}
+
+will app1 and app2 point to same object
