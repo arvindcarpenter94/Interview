@@ -1,0 +1,17 @@
+There is a piece of paper which is cut in the form of small adjacent pillars of equal widths and different heights as given below. 
+An array A of size n is given to represent the heights of the pillars. A rectangle is to be cut from this piece of paper such that it has the maximum area possible. 
+
+Example:
+
+A: [6, 2, 5, 4, 5, 1, 6]
+
+Rectangle with maximumm area is formed by A[2], A[3], A[4], length - 3 and height - 4. Area is 3*4 = 12.            
+                
+ 6                   6
+ __      5     5     __
+|  |    __  4  __   |  |
+|  |   |  |___|  |  |  |
+|  | 2 |  |   |  |  |  |
+|  |___|  |   |  |1 |  |
+|  |   |  |   |  |__|  |
+|  |   |  |   |  |  |  |
